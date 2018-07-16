@@ -1,2 +1,6 @@
 foo: version 2.2.1
 fileServiceURL: https://github.com/mliyz/SpringcloudConfig/tree/master/updatefile
+spring:
+  redis:
+    cluster:
+      nodes: Centos6701:6379,Centos6701:6380,Centos6702:6380,Centos6702:6379,Centos6703:6380,Centos6703:6379
